@@ -1,0 +1,69 @@
+# =========================
+# Entornos virtuales
+# =========================
+.venv/
+.venv_pt20/
+venv/
+
+# =========================
+# Caché y compilados de Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Configuración local de VS Code
+# =========================
+.vscode/
+
+# =========================
+# Salidas generadas del proyecto
+# =========================
+models/
+outputs/
+logs/
+
+# =========================
+# Datos generados / pesados
+# =========================
+data/1h/
+data/gold/
+data/bronze/
+data/silver/
+data/tableau/
+
+# =========================
+# Artefactos de entrenamiento
+# =========================
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.joblib
+*.pkl
+*.npy
+*.npz
+
+# =========================
+# Archivos pesados de datos
+# =========================
+*.parquet
+*.feather
+
+# =========================
+# Archivos temporales
+# =========================
+*.tmp
+*.temp
+
+# =========================
+# Sistema operativo
+# =========================
+Thumbs.db
+.DS_Store
